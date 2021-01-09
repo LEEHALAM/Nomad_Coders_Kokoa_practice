@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big {
+  width: 500px;
+  height: 500px;
+  background-color: wheat;
+  border: 5px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.small {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  border: 5px solid white;
+}
+.small.second {
+  width: 400px;
+  border: 5px dashed white;
+}
