@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            border: 2px dashed black;
+        }
         html {
             background-color:tomato;
         }
@@ -14,7 +17,7 @@
             background-color:thistle;
         }
         div {
-            padding:10px;
+            padding:20px;
         }
         #first {
             background-color: whitesmoke;
@@ -31,19 +34,15 @@
             width:50px;
             height:50px;
         }
-        #fourth {
-            background-color:blanchedalmond;
-            width:25px;
-            height:25px;
+        span {
+            border-style:dotted;
         }
     </style>
 </head>
 <body>
     <div id="first">
         <div id="second">
-            <div id="third">
-                <div id="fourth"></div>
-            </div>
+            <div id="third"><span>hello</span> </div>
         </div>
     </div>
 </body>
