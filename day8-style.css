@@ -23,9 +23,26 @@ body > h1 {
   border: 5px solid white;
 }
 
+.First > div:first-child {
+  background-color: tomato;
+}
+
+.First > div:nth-child(2) {
+  background-color: teal;
+}
+
+.Second > div:first-child {
+  background-color: burlywood;
+}
+
+.Second > div:nth-child(2) {
+  background-color: thistle;
+}
+/*
 .tomato {
   background-color: tomato;
 }
+
 
 .teal {
   background-color: teal;
@@ -38,7 +55,7 @@ body > h1 {
 .thistle {
   background-color: thistle;
 }
-
+*/
 .content {
   width: 151px;
   height: 100px;
