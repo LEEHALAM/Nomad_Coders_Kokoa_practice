@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>The Nico Times</title>
+    <style>
+        body {
+            height: 1000vh;
+            margin:50px;
+        }
+        span {
+            background-color:yellowgreen;
+            padding:5px;
+            border-radius:10px;
+        }
+        p span {
+            color:white;
+        }
+        div > span {
+            text-decoration: underline;
+        }
+        p + span {
+            color:blue;
+        }
+        p ~ span {
+            color:pink;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>hello</span>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.<span>inside</span>
+        </p>
+        <span>hello</span>
+        <span>hello</span>
+
+    </div>
+</body>
+</html>
