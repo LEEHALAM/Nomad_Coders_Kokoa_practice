@@ -9,7 +9,6 @@
 body {
   height: 100vh;
   font-family: "Jua", sans-serif;
-  background-color: #b1bfd8;
   background: linear-gradient(30deg, #fff76a, #ebe300, #9d9cf7 80%);
   display: flex;
   justify-content: center;
