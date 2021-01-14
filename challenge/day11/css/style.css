@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Hind+Guntur&family=Itim&display=swap");
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Jua", sans-serif;
+  background-color: #b1bfd8;
+  background: linear-gradient(30deg, #fff76a, #ebe300, #9d9cf7 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-text {
+  font-family: "Concert One", cursive;
+}
+
+.gray {
+  font-family: "Hind Guntur", sans-serif;
+  color: rgb(187, 187, 187);
+}
+
+.wrapper {
+  width: 400px;
+  background-color: white;
+  border: 5px solid black;
+}
+
+.wrapper > :not(header) {
+  padding: 15px;
+  background-color: white;
+}
+
+header {
+  background-color: #a3d2ca;
+  padding: 15px;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.nav__title {
+  font-size: 24px;
+}
+
+.search {
+  width: 93%;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  position: absolute;
+}
+
+.search__text {
+  font-size: 20px;
+}
+
+.title-text:not(.nav__title) {
+  font-size: 26px;
+  padding: 20px 0px;
+}
+
+.article__title {
+  padding-top: 20px;
+}
+
+.article__content {
+  display: flex;
+}
+
+.article__image {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.article__data {
+  width: 70%;
+  padding-right: 40px;
+}
+
+.article__data__info__title {
+  padding: 2px 0px;
+  font-size: 20px;
+}
+
+.article__data__info__text {
+  padding: 5px 0px;
+}
+
+.star {
+  background: linear-gradient(70deg, #ebe300 51%, #9d9cf7 67%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.article__data__btn-genre {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article__data__btn-genre__box {
+  width: 90px;
+  height: 30px;
+  background-color: #ebe300;
+  border-radius: 5px;
+  margin: 20px 0px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.genre__box__text {
+  font-size: 13px;
+}
+
+.article__data__btn-book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article__data__btn-book__bookmark {
+  width: 30px;
+  height: 30px;
+  background-color: #a3d2ca;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article__data__btn-book__book-now {
+  width: 140px;
+  height: 30px;
+  background-color: #0a043c;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.book-now__text {
+  color: white;
+}
+
+.article__content__books {
+  display: flex;
+}
+
+.article__content__books__book {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.article__content__books____book__image > img {
+  border-radius: 10px;
+}
+
+.article__image img {
+  border-radius: 5px;
+}
+
+.article__data {
+  padding: 2px;
+}
+
+.article__data__info__title {
+  font-size: 20px;
+}
+
+img {
+  border: 2px solid rgb(187, 187, 187);
+}
